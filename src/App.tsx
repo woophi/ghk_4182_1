@@ -188,7 +188,7 @@ export const App = () => {
 
       <div className={appSt.bottomBtn}>
         <ButtonMobile loading={loading} block view="primary" onClick={submit}>
-          Создать шаблон оплаты
+          Попробовать
         </ButtonMobile>
       </div>
     </>
