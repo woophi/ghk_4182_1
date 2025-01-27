@@ -32,10 +32,11 @@ export const App = () => {
             PRO инвестиции
           </Typography.TitleResponsive>
           <div style={{ marginTop: '8px', maxWidth: '222px' }}>
-            <Typography.Text view="primary-small">Выберите, что будет полезно именно вам</Typography.Text>
+            <Typography.Text view="primary-small">Подписка, которая экономит ваши деньги и время</Typography.Text>
           </div>
 
           <div className={appSt.tag}>
+            <CDNIcon className={appSt.calendar} name="glyph_calendar_m" />
             <Typography.Text view="primary-small" weight="bold">
               30 дней
             </Typography.Text>
