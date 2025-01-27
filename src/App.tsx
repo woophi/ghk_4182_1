@@ -14,20 +14,9 @@ export const App = () => {
   const [thxShow, setThx] = useState(LS.getItem(LSKeys.ShowThx, false));
 
   const submit = () => {
+    window.gtag('event', 'test_one_4182');
     setLoading(true);
-
-    // sendDataToGA({
-    //   autopayments: Number(checked) as 1 | 0,
-    //   limit: Number(checked2) as 1 | 0,
-    //   limit_sum: limit ?? 0,
-    //   insurance: Number(checked3) as 1 | 0,
-    //   email: email ? 1 : 0,
-    // }).then(() => {
-    //   LS.setItem(LSKeys.ShowThx, true);
-    //   setThx(true);
-    //   setLoading(false);
-    // });
-    // LS.setItem(LSKeys.ShowThx, true);
+    LS.setItem(LSKeys.ShowThx, true);
     setThx(true);
     setLoading(false);
   };
