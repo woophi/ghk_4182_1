@@ -54,10 +54,10 @@ export const App = () => {
           <CDNIcon name="glyph_robot_m" />
           <div>
             <Typography.Text tag="p" defaultMargins={false} view="primary-small" weight="bold">
-              Получить помощь от цифрового помошника
+              Получить помощь от цифрового помощника
             </Typography.Text>
             <Typography.Text view="primary-small" color="secondary">
-              Бот поможет проанализировать что на рынке и как вам действовать сейчас
+              Бот поможет проанализировать рынки и определить, как вам действовать сейчас
             </Typography.Text>
           </div>
         </div>
@@ -68,7 +68,7 @@ export const App = () => {
               Узнайте, насколько сбалансирован ваш портфель
             </Typography.Text>
             <Typography.Text view="primary-small" color="secondary">
-              Анализ активов и рекомендации по улучшению структуры
+              Получайте быстрый анализ активов в портфеле и рекомендации по улучшению структуры портфеля
             </Typography.Text>
           </div>
         </div>
@@ -79,7 +79,7 @@ export const App = () => {
               Поймите причины изменения стоимости портфеля
             </Typography.Text>
             <Typography.Text view="primary-small" color="secondary">
-              Саммаризатор AI объяснит основные драйверы изменений
+              AI-саммаризатор объяснит основные драйверы изменений доходности портфеля
             </Typography.Text>
           </div>
         </div>
@@ -90,7 +90,7 @@ export const App = () => {
               Оцените быстро рыночную ситуацию
             </Typography.Text>
             <Typography.Text view="primary-small" color="secondary">
-              AI соберет актуальные новости и события, чтобы вы могли понять тренды за минуту.
+              AI соберет краткую сводку по актуальным новостям и событиям, чтобы вы могли понять тренды за минуту
             </Typography.Text>
           </div>
         </div>
@@ -101,8 +101,7 @@ export const App = () => {
               Получите быстро выжимку по активу
             </Typography.Text>
             <Typography.Text view="primary-small" color="secondary">
-              AI сформирует консенсус-прогноз рынка, основываясь на мнениях экспертов и аналитиков по вашим активам и
-              запросам
+              AI сформируют консенсус-прогноз по активу, основываясь на мнениях инвесторов и аналитиков по любому активу
             </Typography.Text>
           </div>
         </div>
@@ -118,7 +117,7 @@ export const App = () => {
               Зарабатывайте на остатке средств
             </Typography.Text>
             <Typography.Text view="primary-small" color="secondary">
-              Получайте доход с процентов на свободные средства в портфеле
+              Получайте доход с остатков денежных средств на брокерском счете
             </Typography.Text>
           </div>
         </div>
@@ -129,7 +128,7 @@ export const App = () => {
               Торгуйте без комиссии
             </Typography.Text>
             <Typography.Text view="primary-small" color="secondary">
-              Совершайте 10 бесплатных сделок каждый месяц на акциях, облигациях и фондах
+              Совершайте 10 сделок без комиссии брокера каждый месяц на акциях, облигациях и фондах
             </Typography.Text>
           </div>
         </div>
@@ -156,7 +155,7 @@ export const App = () => {
               Доступ к эксклюзивной аналитике
             </Typography.Text>
             <Typography.Text view="primary-small" color="secondary">
-              Читайте обзоры ключевых рынков, секторов и эмитентов
+              Читайте закрытые аналитические обзоры рынков, секторов и эмитентов
             </Typography.Text>
           </div>
         </div>
@@ -167,7 +166,7 @@ export const App = () => {
               Общайтесь с экспертами в закрытых сообществах
             </Typography.Text>
             <Typography.Text view="primary-small" color="secondary">
-              Присоединяйтесь к профессиональным аналитикам и трейдерам Альфа Инвестиций
+              Узнавайте мнение профессиональных аналитиков и трейдеров первым
             </Typography.Text>
           </div>
         </div>
