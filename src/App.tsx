@@ -128,7 +128,7 @@ export const App = () => {
               Торгуйте без комиссии
             </Typography.Text>
             <Typography.Text view="primary-small" color="secondary">
-              Совершайте 10 сделок без комиссии брокера каждый месяц на акциях, облигациях и фондах
+              Совершайте до 10 сделок с акциями, облигациями или фондами без комиссии
             </Typography.Text>
           </div>
         </div>
